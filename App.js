@@ -1,0 +1,14 @@
+import React from "react";
+import "./meme.css"
+import Header from "./Components/Header";
+import Meme from "./Components/Meme";
+
+
+export default function App() {
+ return (
+  <div>
+   <Header />
+   <Meme />
+  </div>
+ )
+}
